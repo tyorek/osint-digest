@@ -1,0 +1,202 @@
+{
+ "settings": {
+  "window_hours": 26,
+  "per_feed_max": 25,
+  "cluster_threshold": 0.82,
+  "us_min_outlets": 3,
+  "world_min_outlets": 4,
+  "min_buckets": 2,
+  "max_us": 12,
+  "max_world": 5,
+  "think_budget": 14000,
+  "local_timeout": 600,
+  "deadline_minutes": 80,
+  "primary_link_threshold": 0.7,
+  "cluster_gap": 0.08,
+  "exclude_regex": "(\\bopinion\\b|\\bcartoon\\b|the guardian view|\\beditorial\\b|\\bpodcast\\b|politics chat|\\blive updates?\\b|\\blive:|\\bnewsletter\\b|\\bquiz\\b|\\bwatch:|\\bvideo:|\\bletters?:)",
+  "per_bucket_judge": 2,
+  "judge_chars": 450
+ },
+ "watchlist": [
+  "Strait of Hormuz",
+  "Hormuz",
+  "Iran"
+ ],
+ "feeds": [
+  {
+   "id": "npr",
+   "name": "NPR Politics",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://feeds.npr.org/1014/rss.xml"
+  },
+  {
+   "id": "guardian-us",
+   "name": "The Guardian US Politics",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://www.theguardian.com/us-news/us-politics/rss"
+  },
+  {
+   "id": "politico",
+   "name": "Politico",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://rss.politico.com/politics-news.xml"
+  },
+  {
+   "id": "cbs",
+   "name": "CBS News Politics",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://www.cbsnews.com/latest/rss/politics"
+  },
+  {
+   "id": "nyt",
+   "name": "NYT Politics",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml"
+  },
+  {
+   "id": "axios",
+   "name": "Axios (via Google News)",
+   "bucket": "left",
+   "section": "us",
+   "url": "https://news.google.com/rss/search?q=site:axios.com+when:2d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "id": "bbc-us",
+   "name": "BBC US & Canada",
+   "bucket": "center",
+   "section": "us",
+   "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+  },
+  {
+   "id": "thehill",
+   "name": "The Hill",
+   "bucket": "center",
+   "section": "us",
+   "url": "https://thehill.com/homenews/feed/"
+  },
+  {
+   "id": "csm",
+   "name": "Christian Science Monitor",
+   "bucket": "center",
+   "section": "us",
+   "url": "https://rss.csmonitor.com/feeds/usa"
+  },
+  {
+   "id": "newsnation",
+   "name": "NewsNation",
+   "bucket": "center",
+   "section": "us",
+   "url": "https://www.newsnationnow.com/politics/feed/"
+  },
+  {
+   "id": "wsj",
+   "name": "WSJ Politics",
+   "bucket": "center",
+   "section": "us",
+   "url": "https://feeds.content.dowjones.io/public/rss/socialpoliticsfeed"
+  },
+  {
+   "id": "fox",
+   "name": "Fox News Politics",
+   "bucket": "right",
+   "section": "us",
+   "url": "https://moxie.foxnews.com/google-publisher/politics.xml"
+  },
+  {
+   "id": "nypost",
+   "name": "NY Post Politics",
+   "bucket": "right",
+   "section": "us",
+   "url": "https://nypost.com/politics/feed/"
+  },
+  {
+   "id": "washex",
+   "name": "Washington Examiner",
+   "bucket": "right",
+   "section": "us",
+   "url": "https://www.washingtonexaminer.com/feed/"
+  },
+  {
+   "id": "washtimes",
+   "name": "Washington Times",
+   "bucket": "right",
+   "section": "us",
+   "url": "https://www.washingtontimes.com/rss/headlines/news/politics/"
+  },
+  {
+   "id": "natreview",
+   "name": "National Review",
+   "bucket": "right",
+   "section": "us",
+   "url": "https://www.nationalreview.com/feed/"
+  },
+  {
+   "id": "bbc-world",
+   "name": "BBC World",
+   "bucket": "center",
+   "section": "world",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+   "id": "dw",
+   "name": "DW World",
+   "bucket": "center",
+   "section": "world",
+   "url": "https://rss.dw.com/rdf/rss-en-world"
+  },
+  {
+   "id": "wsj-world",
+   "name": "WSJ World",
+   "bucket": "center",
+   "section": "world",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"
+  },
+  {
+   "id": "aljazeera",
+   "name": "Al Jazeera",
+   "bucket": "left",
+   "section": "world",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml"
+  },
+  {
+   "id": "guardian-world",
+   "name": "The Guardian World",
+   "bucket": "left",
+   "section": "world",
+   "url": "https://www.theguardian.com/world/rss"
+  },
+  {
+   "id": "fox-world",
+   "name": "Fox News World",
+   "bucket": "right",
+   "section": "world",
+   "url": "https://moxie.foxnews.com/google-publisher/world.xml"
+  },
+  {
+   "id": "nypost-world",
+   "name": "NY Post World",
+   "bucket": "right",
+   "section": "world",
+   "url": "https://nypost.com/world-news/feed/"
+  },
+  {
+   "id": "whitehouse",
+   "name": "White House",
+   "bucket": "primary",
+   "section": "primary",
+   "url": "https://www.whitehouse.gov/news/feed/"
+  },
+  {
+   "id": "state",
+   "name": "State Department press releases",
+   "bucket": "primary",
+   "section": "primary",
+   "url": "https://www.state.gov/rss-feed/press-releases/feed/"
+  }
+ ]
+}
